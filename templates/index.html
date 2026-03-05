@@ -1,0 +1,121 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+<title>Telecom Customer Support Bot</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<h2>Telecommunication Chatbot</h2>
+
+<div id="chatbox"></div>
+
+<input id="userInput" type="text" placeholder="Type your message">
+<button onclick="sendMessage()">Send</button>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html> -->
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>NovaTel Communications</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<header class="navbar">
+<h1>NovaTel Communications</h1>
+<nav>
+<a href="#">Home</a>
+<a href="#">Services</a>
+<a href="#">Coverage</a>
+<a href="#">Support</a>
+<a href="#">Contact</a>
+</nav>
+</header>
+
+<section class="hero">
+<h2>Fast, Reliable Internet Across Africa</h2>
+<p>NovaTel provides mobile connectivity, fibre internet and satellite broadband solutions for homes and businesses.</p>
+<button>Explore Plans</button>
+</section>
+
+<section class="services">
+<h2>Our Services</h2>
+
+<div class="card">
+<h3>Mobile Data</h3>
+<p>Affordable 4G & 5G mobile data bundles designed for streaming, browsing and gaming.</p>
+</div>
+
+<div class="card">
+<h3>Home Fibre</h3>
+<p>Ultra‑fast fibre internet with speeds up to 1Gbps for homes and small offices.</p>
+</div>
+
+<div class="card">
+<h3>Satellite Internet</h3>
+<p>Reliable satellite internet for remote areas with nationwide coverage.</p>
+</div>
+
+</section>
+
+<footer>
+<p>© 2026 NovaTel Communications | Customer Support: +254 700 000 000</p>
+</footer>
+
+<!-- CHATBOT BUTTON -->
+
+<div id="chat-toggle">💬</div>
+
+<!-- CHAT WIDGET -->
+
+<div class="chat-widget" id="chat-widget">
+
+<div class="chat-header" onclick="toggleChat()">
+
+<div class="chat-info">
+<h3>NovaTel Assistant 🤖</h3>
+<p>Usually replies instantly</p>
+</div>
+
+<div id="collapse-icon">–</div>
+
+</div>
+
+<div class="chat-body" id="chatbox">
+
+<div class="message bot">
+Hello 👋 I’m NovaTel Assistant.<br>
+Ask me about:
+<ul>
+<li>Data bundles</li>
+<li>Internet coverage</li>
+<li>Billing & payments</li>
+<li>Network issues</li>
+</ul>
+
+</div>
+
+</div>
+
+<div class="chat-footer">
+
+<input type="text" id="userInput" placeholder="Type a message..." onkeypress="handleKey(event)">
+
+<button onclick="sendMessage()">➤</button>
+
+</div>
+
+</div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>

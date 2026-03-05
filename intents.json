@@ -1,0 +1,1401 @@
+{
+   "intents": [
+      {
+         "tag": "account_balance",
+         "patterns": [
+            "check my balance",
+            "what is my airtime balance",
+            "remaining balance",
+            "how much credit do i have"
+         ],
+         "responses": [
+            "You can check your balance through the mobile app or by dialing the balance USSD code."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "greeting",
+         "patterns": [
+            "Hi",
+            "Hello",
+            "Hey",
+            "Hey there",
+            "Good morning",
+            "Good afternoon",
+            "Good evening",
+            "Hi there",
+            "Hello chatbot",
+            "Is anyone there",
+            "Can you help me",
+            "Greetings",
+            "Hey bot",
+            "Hello support",
+            "Hi customer service"
+         ],
+         "responses": [
+            "Hello! Welcome to customer support. How can I assist you today?",
+            "Hi there! How may I help you today?",
+            "Hello! I'm here to help with your telecom service questions.",
+            "Hi! How can I assist you with your account or service today?"
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "data_balance",
+         "patterns": [
+            "check my data balance",
+            "how much data do i have",
+            "remaining internet data",
+            "internet balance"
+         ],
+         "responses": [
+            "You can check your remaining data through the mobile app or by dialing the data balance code."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "buy_data_bundle",
+         "patterns": [
+            "buy data bundle",
+            "purchase internet bundle",
+            "how can i buy data",
+            "activate data bundle"
+         ],
+         "responses": [
+            "You can buy data bundles via USSD, the mobile app, or our website."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "slow_internet",
+         "patterns": [
+            "internet is slow",
+            "slow network",
+            "my data is very slow",
+            "why is internet slow"
+         ],
+         "responses": [
+            "Slow internet may be due to network congestion or signal strength. Try restarting your device or moving to an area with better signal."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "network_outage",
+         "patterns": [
+            "network is down",
+            "no signal",
+            "network outage",
+            "service not available"
+         ],
+         "responses": [
+            "There may be a temporary network outage in your area. Our engineers are working to restore service."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "sim_activation",
+         "patterns": [
+            "activate my sim",
+            "sim activation process",
+            "how to activate sim",
+            "new sim activation"
+         ],
+         "responses": [
+            "Insert the SIM card in your phone and follow the activation instructions provided with the SIM package."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "sim_replacement",
+         "patterns": [
+            "replace sim card",
+            "lost sim card",
+            "sim replacement process",
+            "get a new sim"
+         ],
+         "responses": [
+            "You can visit the nearest service center with your ID to request a SIM replacement."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "number_porting",
+         "patterns": [
+            "port my number",
+            "switch network but keep number",
+            "mobile number portability",
+            "transfer my number"
+         ],
+         "responses": [
+            "You can request number portability by visiting a service center or applying online."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "pay_bill",
+         "patterns": [
+            "pay my bill",
+            "bill payment",
+            "how to pay my telecom bill",
+            "pay internet bill"
+         ],
+         "responses": [
+            "Bills can be paid via mobile money, bank transfer, or through our mobile app."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "bill_details",
+         "patterns": [
+            "show my bill",
+            "bill details",
+            "monthly statement",
+            "billing information"
+         ],
+         "responses": [
+            "You can view your bill details through the mobile app or by logging into your account online."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "international_roaming",
+         "patterns": [
+            "activate roaming",
+            "international roaming",
+            "use my phone abroad",
+            "roaming service"
+         ],
+         "responses": [
+            "International roaming can be activated through the mobile app or by contacting customer support."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "roaming_charges",
+         "patterns": [
+            "roaming charges",
+            "cost of roaming",
+            "international roaming price",
+            "roaming rates"
+         ],
+         "responses": [
+            "Roaming charges vary depending on the country. Please check our roaming rates page for details."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "upgrade_plan",
+         "patterns": [
+            "upgrade my plan",
+            "change subscription plan",
+            "switch to better plan",
+            "plan upgrade"
+         ],
+         "responses": [
+            "You can upgrade your plan through the mobile app or by contacting customer support."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "downgrade_plan",
+         "patterns": [
+            "downgrade my plan",
+            "change to cheaper plan",
+            "lower my subscription",
+            "reduce plan"
+         ],
+         "responses": [
+            "Plan changes can be done through your account settings in the mobile app."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "cancel_subscription",
+         "patterns": [
+            "cancel my plan",
+            "terminate service",
+            "stop my subscription",
+            "cancel internet plan"
+         ],
+         "responses": [
+            "You can cancel your subscription by contacting support or visiting a service center."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "device_support",
+         "patterns": [
+            "device not working",
+            "phone issue",
+            "router problem",
+            "device troubleshooting"
+         ],
+         "responses": [
+            "Please restart your device and ensure all cables are properly connected."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "router_setup",
+         "patterns": [
+            "set up router",
+            "how to install router",
+            "wifi router setup",
+            "router installation"
+         ],
+         "responses": [
+            "Follow the installation guide provided with your router or contact our support team for assistance."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "wifi_password",
+         "patterns": [
+            "change wifi password",
+            "reset wifi password",
+            "wifi login password",
+            "update wifi password"
+         ],
+         "responses": [
+            "You can change your WiFi password by logging into the router settings page."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "wifi_not_working",
+         "patterns": [
+            "wifi not working",
+            "cannot connect to wifi",
+            "wifi problem",
+            "wifi connection issue"
+         ],
+         "responses": [
+            "Please restart your router and check if the issue persists."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "coverage_area",
+         "patterns": [
+            "network coverage",
+            "coverage in my area",
+            "is service available here",
+            "coverage map"
+         ],
+         "responses": [
+            "You can check our coverage map on our website to see service availability in your area."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "new_connection",
+         "patterns": [
+            "get new connection",
+            "new internet connection",
+            "apply for service",
+            "install internet"
+         ],
+         "responses": [
+            "You can apply for a new connection through our website or visit a service center."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "installation_schedule",
+         "patterns": [
+            "installation appointment",
+            "schedule installation",
+            "internet installation date",
+            "technician visit"
+         ],
+         "responses": [
+            "Our technician will contact you to schedule an installation appointment."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "service_status",
+         "patterns": [
+            "service status",
+            "network status",
+            "check service availability",
+            "current outages"
+         ],
+         "responses": [
+            "You can check the current service status on our website or mobile app."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "data_rollover",
+         "patterns": [
+            "data rollover",
+            "unused data carry forward",
+            "rollover data",
+            "carry forward data"
+         ],
+         "responses": [
+            "Some plans allow unused data to roll over to the next billing cycle."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "unlimited_data",
+         "patterns": [
+            "unlimited data plan",
+            "do you have unlimited internet",
+            "unlimited internet options",
+            "unlimited package"
+         ],
+         "responses": [
+            "Yes, we offer unlimited data plans depending on your location and package."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "fair_usage_policy",
+         "patterns": [
+            "fair usage policy",
+            "data limit policy",
+            "internet fair usage",
+            "fup"
+         ],
+         "responses": [
+            "Fair Usage Policy ensures all users get stable internet service."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "reset_network",
+         "patterns": [
+            "reset network settings",
+            "network reset",
+            "fix network by reset",
+            "reset connection"
+         ],
+         "responses": [
+            "Try resetting your network settings or restarting your device."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "customer_support_contact",
+         "patterns": [
+            "contact support",
+            "talk to customer service",
+            "customer care number",
+            "help desk"
+         ],
+         "responses": [
+            "You can reach our customer support via phone, email, or live chat."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "complaint_registration",
+         "patterns": [
+            "file complaint",
+            "register complaint",
+            "report problem",
+            "make complaint"
+         ],
+         "responses": [
+            "You can register a complaint through our website or customer support."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "complaint_status",
+         "patterns": [
+            "complaint status",
+            "check complaint",
+            "track complaint",
+            "complaint progress"
+         ],
+         "responses": [
+            "You can track your complaint status using your complaint reference number."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "refund_request",
+         "patterns": [
+            "request refund",
+            "refund for service",
+            "money back request",
+            "refund process"
+         ],
+         "responses": [
+            "Refund requests can be submitted through customer support."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "payment_methods",
+         "patterns": [
+            "payment options",
+            "how can i pay",
+            "available payment methods",
+            "pay bill options"
+         ],
+         "responses": [
+            "We accept mobile money, bank transfer, and credit card payments."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "autopay",
+         "patterns": [
+            "automatic payment",
+            "enable autopay",
+            "auto bill payment",
+            "automatic billing"
+         ],
+         "responses": [
+            "You can enable automatic payments from your account settings."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "data_topup",
+         "patterns": [
+            "top up data",
+            "add more data",
+            "extra data package",
+            "topup internet"
+         ],
+         "responses": [
+            "You can top up your data using the mobile app or USSD code."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "lost_phone",
+         "patterns": [
+            "lost phone",
+            "block lost phone",
+            "lost device security",
+            "phone stolen"
+         ],
+         "responses": [
+            "Please contact customer support immediately to block your SIM card."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "sim_block",
+         "patterns": [
+            "block my sim",
+            "disable sim card",
+            "sim security",
+            "stop sim usage"
+         ],
+         "responses": [
+            "You can request a SIM block through customer support."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "sim_unblock",
+         "patterns": [
+            "unblock sim",
+            "reactivate sim",
+            "sim unlock",
+            "enable sim again"
+         ],
+         "responses": [
+            "SIM reactivation can be requested at our service center."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "data_sharing",
+         "patterns": [
+            "share data",
+            "transfer data",
+            "data sharing option",
+            "send data to friend"
+         ],
+         "responses": [
+            "Some plans allow data sharing between users."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "family_plan",
+         "patterns": [
+            "family plan",
+            "shared internet plan",
+            "family data plan",
+            "multi user plan"
+         ],
+         "responses": [
+            "We offer family plans that allow multiple users to share data."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "business_plans",
+         "patterns": [
+            "business internet plan",
+            "corporate telecom plan",
+            "company subscription",
+            "enterprise internet"
+         ],
+         "responses": [
+            "We provide customized telecom plans for businesses."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "satellite_internet",
+         "patterns": [
+            "satellite internet service",
+            "satellite broadband",
+            "space internet",
+            "satellite network"
+         ],
+         "responses": [
+            "Satellite internet provides connectivity in remote areas using satellite technology."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "starlink_installation",
+         "patterns": [
+            "install satellite dish",
+            "satellite internet setup",
+            "starlink installation",
+            "dish setup"
+         ],
+         "responses": [
+            "The satellite dish should be placed in an open area with clear view of the sky."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "weather_interference",
+         "patterns": [
+            "internet affected by weather",
+            "rain affecting signal",
+            "weather impact internet",
+            "storm network issue"
+         ],
+         "responses": [
+            "Severe weather conditions may temporarily affect satellite internet signal."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "latency_question",
+         "patterns": [
+            "what is latency",
+            "internet delay",
+            "ping issue",
+            "network lag"
+         ],
+         "responses": [
+            "Latency refers to the time it takes for data to travel between your device and the server."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "speed_test",
+         "patterns": [
+            "test internet speed",
+            "speed test",
+            "check internet speed",
+            "measure network speed"
+         ],
+         "responses": [
+            "You can test your internet speed using online speed test tools."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "router_reset",
+         "patterns": [
+            "reset router",
+            "restart router",
+            "router reboot",
+            "wifi router reset"
+         ],
+         "responses": [
+            "Press and hold the reset button on your router for 10 seconds."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "firmware_update",
+         "patterns": [
+            "router firmware update",
+            "update router software",
+            "router upgrade",
+            "firmware installation"
+         ],
+         "responses": [
+            "Firmware updates can be installed from the router settings page."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "service_upgrade",
+         "patterns": [
+            "upgrade internet speed",
+            "faster internet plan",
+            "increase bandwidth",
+            "upgrade package"
+         ],
+         "responses": [
+            "You can upgrade your plan through the mobile app."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "data_expiry",
+         "patterns": [
+            "when does my data expire",
+            "data expiry date",
+            "internet bundle expiry",
+            "data validity"
+         ],
+         "responses": [
+            "Data bundles have a validity period depending on the package."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "promo_offers",
+         "patterns": [
+            "current promotions",
+            "available offers",
+            "special telecom offers",
+            "discount plans"
+         ],
+         "responses": [
+            "You can check current promotions in the mobile app or website."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "loyalty_rewards",
+         "patterns": [
+            "loyalty program",
+            "reward points",
+            "customer rewards",
+            "loyalty benefits"
+         ],
+         "responses": [
+            "Our loyalty program rewards customers with points and special offers."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "mobile_app_help",
+         "patterns": [
+            "help with mobile app",
+            "app not working",
+            "telecom app issue",
+            "login problem"
+         ],
+         "responses": [
+            "Please ensure your app is updated to the latest version."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "password_reset",
+         "patterns": [
+            "reset account password",
+            "forgot password",
+            "change login password",
+            "password recovery"
+         ],
+         "responses": [
+            "You can reset your password using the account recovery option."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "account_login",
+         "patterns": [
+            "cannot login",
+            "login problem",
+            "account login issue",
+            "sign in problem"
+         ],
+         "responses": [
+            "Please ensure you are using the correct login credentials."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "account_registration",
+         "patterns": [
+            "create account",
+            "register new account",
+            "sign up telecom service",
+            "new account"
+         ],
+         "responses": [
+            "You can create an account using our mobile app or website."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "profile_update",
+         "patterns": [
+            "update my profile",
+            "change account details",
+            "edit profile",
+            "update contact info"
+         ],
+         "responses": [
+            "Profile information can be updated from your account settings."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "email_notifications",
+         "patterns": [
+            "email alerts",
+            "billing notifications",
+            "service email notifications",
+            "email updates"
+         ],
+         "responses": [
+            "You can enable or disable email notifications in your account settings."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "sms_notifications",
+         "patterns": [
+            "sms alerts",
+            "text notifications",
+            "receive sms updates",
+            "enable sms alerts"
+         ],
+         "responses": [
+            "SMS alerts can be managed from the notification settings."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "data_usage_alerts",
+         "patterns": [
+            "data usage alerts",
+            "notify me when data low",
+            "data warning",
+            "data limit alert"
+         ],
+         "responses": [
+            "You can enable data usage alerts in your mobile app."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "support_hours",
+         "patterns": [
+            "support hours",
+            "customer service hours",
+            "help desk hours",
+            "when is support available"
+         ],
+         "responses": [
+            "Customer support is available 24/7 for assistance."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "service_center",
+         "patterns": [
+            "nearest service center",
+            "where is service center",
+            "customer care office",
+            "telecom branch"
+         ],
+         "responses": [
+            "You can find the nearest service center using our website locator."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "feedback",
+         "patterns": [
+            "give feedback",
+            "submit feedback",
+            "service feedback",
+            "rate service"
+         ],
+         "responses": [
+            "We appreciate your feedback. You can submit it through the mobile app."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "survey",
+         "patterns": [
+            "customer survey",
+            "service survey",
+            "participate survey",
+            "feedback survey"
+         ],
+         "responses": [
+            "Occasionally we invite customers to participate in satisfaction surveys."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "privacy_policy",
+         "patterns": [
+            "privacy policy",
+            "data privacy",
+            "how you use my data",
+            "personal data policy"
+         ],
+         "responses": [
+            "You can read our privacy policy on our website."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "terms_conditions",
+         "patterns": [
+            "terms and conditions",
+            "service terms",
+            "telecom terms",
+            "user agreement"
+         ],
+         "responses": [
+            "Our terms and conditions are available on the official website."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "security",
+         "patterns": [
+            "account security",
+            "protect my account",
+            "secure telecom account",
+            "security tips"
+         ],
+         "responses": [
+            "Always keep your account password private and enable security verification."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "two_factor_auth",
+         "patterns": [
+            "two factor authentication",
+            "enable 2fa",
+            "security verification",
+            "extra login security"
+         ],
+         "responses": [
+            "You can enable two factor authentication in your account settings."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "device_compatibility",
+         "patterns": [
+            "compatible devices",
+            "supported devices",
+            "router compatibility",
+            "device support"
+         ],
+         "responses": [
+            "Please check our website for the list of supported devices."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "esim",
+         "patterns": [
+            "what is esim",
+            "activate esim",
+            "esim support",
+            "digital sim"
+         ],
+         "responses": [
+            "eSIM allows you to activate a mobile plan without a physical SIM card."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "esim_activation",
+         "patterns": [
+            "activate esim",
+            "how to activate esim",
+            "esim setup",
+            "install esim"
+         ],
+         "responses": [
+            "You can activate eSIM by scanning the QR code provided during purchase."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "data_throttling",
+         "patterns": [
+            "internet throttling",
+            "slow after limit",
+            "speed reduced",
+            "data throttle"
+         ],
+         "responses": [
+            "Speed may be reduced after exceeding the fair usage limit."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "service_upgrade_request",
+         "patterns": [
+            "request service upgrade",
+            "upgrade connection",
+            "better network package",
+            "service improvement"
+         ],
+         "responses": [
+            "Please contact support to request a service upgrade."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "internet_for_remote_areas",
+         "patterns": [
+            "internet in rural area",
+            "service in remote area",
+            "satellite coverage",
+            "internet countryside"
+         ],
+         "responses": [
+            "Satellite internet provides connectivity even in remote areas."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "installation_fee",
+         "patterns": [
+            "installation fee",
+            "setup cost",
+            "internet installation price",
+            "technician fee"
+         ],
+         "responses": [
+            "Installation fees depend on your location and selected package."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "contract_duration",
+         "patterns": [
+            "contract period",
+            "subscription duration",
+            "minimum contract",
+            "service agreement length"
+         ],
+         "responses": [
+            "Contract durations vary depending on the selected plan."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "early_termination",
+         "patterns": [
+            "cancel contract early",
+            "termination fee",
+            "end contract early",
+            "contract cancellation cost"
+         ],
+         "responses": [
+            "Early termination fees may apply depending on your contract terms."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "moving_house",
+         "patterns": [
+            "moving house internet",
+            "transfer connection",
+            "relocate service",
+            "internet relocation"
+         ],
+         "responses": [
+            "You can request service relocation through customer support."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "internet_pause",
+         "patterns": [
+            "pause service",
+            "temporarily stop internet",
+            "suspend service",
+            "holiday pause"
+         ],
+         "responses": [
+            "Some plans allow temporary suspension of service."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "student_plans",
+         "patterns": [
+            "student internet plan",
+            "discount for students",
+            "student telecom offers",
+            "education plan"
+         ],
+         "responses": [
+            "We offer discounted plans for students."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "gaming_latency",
+         "patterns": [
+            "gaming lag",
+            "high ping gaming",
+            "gaming internet problem",
+            "online game delay"
+         ],
+         "responses": [
+            "Lower latency plans are recommended for online gaming."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "video_streaming",
+         "patterns": [
+            "streaming quality",
+            "video buffering",
+            "netflix buffering",
+            "youtube slow"
+         ],
+         "responses": [
+            "Streaming quality depends on your internet speed and network congestion."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "iot_devices",
+         "patterns": [
+            "connect smart devices",
+            "iot connection",
+            "smart home internet",
+            "connect alexa"
+         ],
+         "responses": [
+            "Our internet supports most smart home and IoT devices."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "business_support",
+         "patterns": [
+            "business support",
+            "enterprise help desk",
+            "corporate customer care",
+            "business assistance"
+         ],
+         "responses": [
+            "Business customers have dedicated support channels."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "api_access",
+         "patterns": [
+            "api access telecom",
+            "developer api",
+            "telecom api integration",
+            "network api"
+         ],
+         "responses": [
+            "Developers can access APIs through our developer portal."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "network_upgrade",
+         "patterns": [
+            "network upgrade",
+            "improve network",
+            "upgrade towers",
+            "5g upgrade"
+         ],
+         "responses": [
+            "We continuously upgrade our infrastructure to improve network quality."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "fiveg_availability",
+         "patterns": [
+            "5g availability",
+            "is 5g available",
+            "5g coverage",
+            "5g service"
+         ],
+         "responses": [
+            "5G coverage is expanding and availability depends on your location."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "four_g",
+         "patterns": [
+            "4g network",
+            "4g coverage",
+            "lte service",
+            "4g internet"
+         ],
+         "responses": [
+            "4G LTE service is widely available across most coverage areas."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "three_g",
+         "patterns": [
+            "3g network",
+            "3g service",
+            "legacy network",
+            "3g availability"
+         ],
+         "responses": [
+            "3G services may be phased out in some regions as networks upgrade."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "sim_registration",
+         "patterns": [
+            "register sim",
+            "sim registration process",
+            "register new sim card",
+            "sim card registration"
+         ],
+         "responses": [
+            "SIM cards must be registered using valid identification."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "kyc_requirements",
+         "patterns": [
+            "kyc requirements",
+            "identity verification",
+            "customer verification",
+            "kyc process"
+         ],
+         "responses": [
+            "KYC verification requires valid identification documents."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "data_privacy_request",
+         "patterns": [
+            "request my data",
+            "data access request",
+            "personal data copy",
+            "privacy data request"
+         ],
+         "responses": [
+            "You may request access to your personal data through our privacy portal."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "delete_account",
+         "patterns": [
+            "delete my account",
+            "close telecom account",
+            "remove my profile",
+            "account deletion"
+         ],
+         "responses": [
+            "Account deletion requests can be submitted to customer support."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "goodbye",
+         "patterns": [
+            "Bye",
+            "Goodbye",
+            "See you later",
+            "Talk to you later",
+            "Thanks bye",
+            "Catch you later",
+            "I am done",
+            "That's all",
+            "End chat"
+         ],
+         "responses": [
+            "Goodbye! Have a great day.",
+            "Thanks for contacting us. If you need help again, feel free to ask.",
+            "Bye! We are always here to help."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "thanks",
+         "patterns": [
+            "Thanks",
+            "Thank you",
+            "Thanks a lot",
+            "Appreciate it",
+            "That helped",
+            "Thank you so much",
+            "Great thanks",
+            "Many thanks"
+         ],
+         "responses": [
+            "You're welcome!",
+            "Happy to help!",
+            "Anytime! Let me know if you need anything else."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "check_balance",
+         "patterns": [
+            "Check my balance",
+            "What is my balance",
+            "Account balance",
+            "How much credit do I have",
+            "Check airtime balance",
+            "Show my account balance",
+            "How much money is in my account"
+         ],
+         "responses": [
+            "You can check your balance through the mobile app or dial the balance USSD code.",
+            "Please open your account dashboard to view your current balance.",
+            "Your balance can be checked via the mobile app or USSD service."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "buy_data_bundle",
+         "patterns": [
+            "Buy data",
+            "Purchase internet bundle",
+            "I want data bundle",
+            "How do I buy internet",
+            "Buy mobile data",
+            "Get data plan",
+            "Activate data package"
+         ],
+         "responses": [
+            "You can buy data bundles through the mobile app or USSD menu.",
+            "Data bundles are available in daily, weekly, and monthly plans.",
+            "Please open the app or dial the bundle purchase code to buy data."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "network_problem",
+         "patterns": [
+            "Network is down",
+            "No signal",
+            "Poor network coverage",
+            "Internet not working",
+            "Connection problem",
+            "Network is slow",
+            "Signal keeps dropping"
+         ],
+         "responses": [
+            "Sorry about the network issue. Please restart your device and check signal strength.",
+            "Network interruptions may occur during maintenance. Try reconnecting shortly.",
+            "Please share your location so we can check network coverage in your area."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "slow_internet",
+         "patterns": [
+            "My internet is slow",
+            "Slow data speed",
+            "Why is my internet slow",
+            "Connection speed is bad",
+            "Slow browsing",
+            "Internet lagging"
+         ],
+         "responses": [
+            "Try restarting your router or mobile data connection.",
+            "Slow speeds can occur during peak hours.",
+            "Please check your remaining data bundle or move to an area with stronger signal."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "contact_support",
+         "patterns": [
+            "Talk to customer service",
+            "Contact support",
+            "Speak to an agent",
+            "I need help from support",
+            "Customer care number",
+            "Connect me to support"
+         ],
+         "responses": [
+            "You can reach customer support via phone, live chat, or email.",
+            "Our support team is available 24/7 through the help center.",
+            "Would you like me to connect you to a live support agent?"
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "service_availability",
+         "patterns": [
+            "Is your service available in my area",
+            "Coverage in my location",
+            "Do you operate in my city",
+            "Check network coverage",
+            "Is internet available here",
+            "Service availability"
+         ],
+         "responses": [
+            "Please provide your location so we can check coverage in your area.",
+            "You can check service availability using the coverage map on our website.",
+            "Coverage depends on your region. Please share your location."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "fallback",
+         "patterns": [
+            "I don't understand",
+            "What do you mean",
+            "That didn't help",
+            "You are wrong",
+            "Not helpful",
+            "I need different help"
+         ],
+         "responses": [
+            "Sorry, I didn't understand that. Could you rephrase your question?",
+            "I'm not sure I understood. Can you provide more details?",
+            "Please clarify your request so I can assist you better."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "general_help",
+         "patterns": [
+            "help",
+            "need assistance",
+            "support needed",
+            "can you help me"
+         ],
+         "responses": [
+            "Sure, please tell me how I can assist you."
+         ],
+         "context_set": ""
+      }
+   ]
+}
